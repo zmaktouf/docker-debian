@@ -5,6 +5,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   build-essential git \
   python3.5 python3-dev python3-virtualenv virtualenv\
   rsync \
+  libmagic1 \
   libffi-dev \
   libssl-dev \
   libsasl2-dev \
