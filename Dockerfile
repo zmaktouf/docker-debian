@@ -1,6 +1,5 @@
 FROM debian:9-slim
 
-RUN 
 RUN apt-get update \
   && curl -fsSL https://deb.nodesource.com/setup_10.x | bash - \
   && apt-get install -y --no-install-recommends \
